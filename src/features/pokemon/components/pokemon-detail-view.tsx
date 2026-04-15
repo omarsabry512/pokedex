@@ -76,7 +76,7 @@ export function PokemonDetailView({ pokemon }: PokemonDetailViewProps) {
     return (
         <div className="mx-auto max-w-[900px]">
             <Link
-                to="/browse/page-controls"
+                to="/page-controls"
                 className="inline-flex items-center gap-2 rounded-xl border border-zinc-200 bg-white px-4 py-2.5 text-sm font-semibold text-zinc-800 shadow-sm transition hover:border-zinc-300 hover:bg-zinc-50"
             >
                 <span aria-hidden>←</span> Back to List
